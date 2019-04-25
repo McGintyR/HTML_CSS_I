@@ -1,0 +1,35 @@
+body{
+    background-color: navy;
+}
+
+    div{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        
+        margin: 10px;
+        padding: 10px;
+
+        border: solid 5px black;
+    }
+
+.box {
+    background-color: orange;
+    float: right;
+    clear: both;
+
+}
+
+#second-box {
+    background-color: aqua;
+    float: left;
+    clear: both;
+
+}
+
+div:nth-child(4){
+    background-color: whitesmoke;
+    float: left;
+    clear: both;
+
+}
